@@ -77,6 +77,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return list;
     }
 
+
     public void insertAll(ArrayList<Grocery_Class> list) {
         SQLiteDatabase db = getWritableDatabase();
         try {
