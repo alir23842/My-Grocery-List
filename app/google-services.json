@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "676296309942",
+    "firebase_url": "https://grocerywithjava.firebaseio.com",
+    "project_id": "grocerywithjava",
+    "storage_bucket": "grocerywithjava.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676296309942:android:3c21bcb57ce7f95bfbfa17",
+        "android_client_info": {
+          "package_name": "com.example.grocerywithjava"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676296309942-f0em7ftbvgih4gb5i2ujn43tc3l166v2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grocerywithjava",
+            "certificate_hash": "5ed3dee94752183c674313e1776ad2a666e9b061"
+          }
+        },
+        {
+          "client_id": "676296309942-csm4ucu640vf82r7b8u8r5u34bg1lufs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-k3z14DpTiaDxb3L9WFBg4s08B2fbZEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676296309942-csm4ucu640vf82r7b8u8r5u34bg1lufs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

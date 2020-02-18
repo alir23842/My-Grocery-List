@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Activity">
+
+
+    <Button
+        android:id="@+id/AM_sync_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sync_data"
+        app:layout_constraintBottom_toTopOf="@+id/AM_view_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/AM_view_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/view_data"
+        app:layout_constraintBottom_toTopOf="@+id/AM_delete_btn"
+        app:layout_constraintEnd_toEndOf="@+id/AM_sync_btn"
+        app:layout_constraintStart_toStartOf="@+id/AM_sync_btn"
+        app:layout_constraintTop_toBottomOf="@+id/AM_sync_btn" />
+
+    <Button
+        android:id="@+id/AM_delete_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/delete_data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/AM_sync_btn"
+        app:layout_constraintStart_toStartOf="@+id/AM_sync_btn"
+        app:layout_constraintTop_toBottomOf="@+id/AM_view_btn" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/AM_group_btns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/AM_sync_pro_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:indeterminate="true"
+        app:layout_constraintBottom_toBottomOf="@+id/AM_sync_btn"
+        app:layout_constraintEnd_toEndOf="@+id/AM_sync_btn"
+        app:layout_constraintStart_toStartOf="@+id/AM_sync_btn"
+        app:layout_constraintTop_toTopOf="@+id/AM_sync_btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>
